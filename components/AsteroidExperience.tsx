@@ -318,7 +318,7 @@ export function AsteroidExperience({asteroids}: AsteroidExperienceProps) {
 
           <OrbitControls enablePan={false} minDistance={5.8} maxDistance={12} autoRotate autoRotateSpeed={0.16} />
 
-          <AsciiRenderer fgColor="#b7ffbf" characters="@MBHENR#KWXDFPQASUZbdehx*8Gm&04LOVYkpq5Tagns69owz$CIu23Jcfry%1v7l+it[] {}?j|()=~!-/<>\^_';,:`.            " resolution={0.18} invert={false} />
+          <AsciiRenderer fgColor="#b7ffbf" characters="@MBHENR#KWXDFPQASUZbdehx*8Gm&04LOV Ykpq5Tagns69owz$CIu23Jcfry% 1v7l+it[] {}?j|()=~!-/<>\^_';,:`.            " resolution={0.18} invert={false} />
         </Canvas>
 
         <p ref={pulseRef} className="absolute pointer-events-none right-3 top-3 text-[10px] tracking-[0.2em] ascii-muted">
